@@ -1,0 +1,361 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  /* font-family:open sans; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+
+}
+:root{
+  --textfont: 14px;
+  
+}
+.header{
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0px 1px 8px rgb(228, 225, 225);
+}
+.header_div{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  display: flex;
+  padding-left: 0.5rem;
+  width: 50%;
+  color: blue;
+  font-weight: 700;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  position: relative;
+  justify-content: flex-start;
+}
+.logo_text{
+  font-size: 0.9rem;
+  line-height: 40px;
+  
+}
+#logo{
+width: 40px;
+height: 40px;
+margin: 0px;
+
+}
+.header_nav{
+  width: 50%;
+  display: flex;
+}
+.nav_sub{
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  justify-content: flex-end;
+}
+
+.header_nav_h{
+  color: blue; 
+  font-weight: 600; 
+  margin-right:6px 
+
+}
+.connected{
+  display: flex;
+  width: auto;
+  padding: 6px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(8, 8, 204);
+  border-radius: 4px;
+}
+/* the feed section of the page */
+
+.feed{
+
+  width: 100%;
+  height: auto;
+}
+.feed_sub{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#prayer{
+  width: 100%;
+  height: 40hv;
+}
+
+/* {display none} */
+.feed_shadow{
+  display: none;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 80px;
+  box-shadow: 0px 4px 8px rgb(116, 20, 20);
+
+  background-color: rgb(29, 19, 73);
+}
+
+/*  welcome page and text */
+.k{
+  display: block;
+  width: 100%;
+  font-size: var(--textfont);
+  color: rgb(51, 51, 53);
+  padding: 2px;
+  margin-bottom: 40px;
+}
+.welcome_sub{
+  display: grid;
+  text-align: center;
+
+}
+.welcome_sub h3{
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.welcome_sub p{
+  padding: 0.1rem;
+
+  text-align:center;
+}
+.d2img{
+  height: 20px !important;
+   width: 20px !important;
+}
+.scripture{
+  padding: 4px;
+  font-size: var(--textfont);
+  text-align: center !important;
+  margin-bottom: 40px;
+
+
+}
+.scripture_of_day_sub{
+  display: grid;
+  text-align: center;
+}
+.scripture_of_day_sub h3{
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.play{
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.h{
+  width: 45%;
+  height: 2px;
+  background-color: rgb(63, 60, 60);
+
+}
+.d2{
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ----------------------------------------------- */
+
+/* the upcoming event section of the page */
+.upcoming_events{
+  display: block;
+  font-family: open sans;
+  width: 100%;
+  height:auto;
+  font-size: var(--textfont);
+  text-align: center;
+  margin-bottom: 40px;
+}
+.event_tag_h3{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  margin-top: 8px;
+  justify-content: center;
+}
+.events_wrap{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  display: inline-block;
+  overflow-y: hidden;
+  overflow-x: auto;
+padding-bottom: 12px;
+  white-space: nowrap;
+  background-color: rgba(167, 165, 162, 0.131);
+}
+
+/* the container that contain each of the event */
+.eventdiv{
+  display: inline-block;
+  height: auto;
+  width: 95%;
+  margin-left: 4px;
+  box-shadow: 2px 3px 4px rgba(175, 173, 173, 0.761);
+  white-space: nowrap;
+}
+.event_1_wrap{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.event_img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.event_img img{
+  width: inherit;
+  height: inherit;
+}
+.event_text{
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  text-align: justify;
+  white-space: wrap;
+  background-color: rgba(149, 149, 153, 0.097);
+}
+.event_text h3{
+  font-size: 15px;
+  padding: 8px;
+}
+.event_text p{
+  width: inherit;
+  height: inherit;
+}
+/* the footer section of the page */
+.footer_container{
+  background-color: rgb(137, 53, 53);
+  display: block;
+  text-align: center;
+  padding: 4px;
+  color: whitesmoke;
+}
+.footer{
+  display: block;
+  width: 100%;
+}
+.newsletter{
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+}
+.textfooter{
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.inputfooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.n{
+  padding: 8px;
+}
+.inputemail{
+  margin-right: 2px;
+}
+.emailnews{
+  background-color: transparent;
+  color: white;
+  border-radius: 6px 0px 0px 6px;
+  border: 1.5px solid rgba(243, 243, 243, 0.7);
+}
+.emailnews:focus{
+  border: 3px solid rgba(172, 167, 167, 0.7);
+
+}
+.subscribe{
+  background-color: rgb(57, 119, 235);
+  color: white;
+  box-shadow: 0px 0px opx;
+  border: none;
+  border-radius: 0px 6px 6px 0px;
+}
+
+/* the section for the listing of all footer links */
+.footer_links{
+  width: 100%;
+  display: flex;
+  padding: 4px;
+  font-size: 13px;
+  font-family: cursive;
+  color: rgb(202, 202, 202);
+  height: auto;
+
+}
+.f{
+      width: 50%;
+
+
+}
+
+.f ul{
+width: 100%;
+padding: 6px;
+margin-left: 20px;
+position: relative;
+height: auto;
+display: block;
+
+}
+.f ul li{
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer_logo{
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.footer_logo_img{
+  height: 60px !important; 
+  width: 60px !important;
+}
+.VV{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.copy{
+  font-size: 11px;
+  color: white;
+}
+
+.copyright{
+  width: 100%;
+  height: auto;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+}
