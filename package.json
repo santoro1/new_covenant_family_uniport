@@ -1,7 +1,7 @@
 {
   "name": "ncfuniport",
   "version": "0.1.0",
-  "homepage": "https://github.com/santoro1/new_covenant_family_uniport.git",
+  "homepage": "https://santoro1.github.io/new_covenant_family_uniport",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
